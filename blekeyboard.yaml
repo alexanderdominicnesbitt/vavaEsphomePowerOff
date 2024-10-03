@@ -30,7 +30,8 @@ logger:
 
 # Enable OTA
 ota:
-  password: $ota_password
+  - password: $ota_password
+    platform: esphome
 
 # Enable WiFi
 wifi:
