@@ -39,7 +39,7 @@ wifi:
 
 # Enable Home Assistant API
 api:
-    encryption:
+  encryption:
     key: "GENERATE-A-UNIQUE-KEY-FOR-YOUR-SETUP-AT-https://esphome.io/components/api.html"
   services:
     - service: send
